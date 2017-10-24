@@ -52,6 +52,17 @@ html,body{
 .container {
   margin: 4% auto;
 }
+.container p {
+  font-size: 1.2em;
+}
+.container a {
+  text-decoration: none;
+}
+.container a:hover {
+  color: #FFF;
+  background-color: #9A2617;
+  text-decoration: none;
+}
 @media (max-width: 600px) {
   .carousel-caption{
     display:none;
