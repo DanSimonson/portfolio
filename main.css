@@ -48,6 +48,7 @@ html,body{
   background: #5e4485;
   border: 2px solid #FFF;
 }
+
 @media (max-width: 600px) {
   .carousel-caption{
     display:none;
