@@ -6,62 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="main.css">
 
-    <style>
-
-    html,body{
-      height:100%;
-    }
-    .carousel,.item,.active{
-      height:100%;
-    }
-    .carousel-inner{
-      height:100%;
-    }
-    .fill{
-      width:100%;height:100%;background-position:center;background-size:cover;
-    }
-
-    .navbar {
-      margin-bottom: 0;
-      border-radius: 0;
-      background-color: #5e4485;
-      color: #ffff;
-      padding: 1% 0;
-      font-size: 1.2em;
-      border: 0:
-    }
-    .navbar-brand {
-      float: left;
-      min-height: 55px;
-      padding: 0 15px 5px;
-    }
-    .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus,
-      .navbar-inverse .navbar-nave .active a:hover {
-        color: #FFF;
-        background-color: #5E4485;
-    }
-    .navbar-inverse .navbar-nav li a {
-      color: #D5D5D5;
-    }
-    .carousel-caption {
-      top: 50%;
-      transform: translateY(-50%);
-      text-transform: uppercase;
-    }
-    .btn {
-      font-size: 18px;
-      color: #FFF;
-      padding: 12px 22px;
-      background: #5e4485;
-      border: 2px solid #FFF;
-    }
-    @media (max-width: 600px) {
-      .carousel-caption{
-        display:none;
-      }
-    }
-    </style>
+  <style>
+  </style>
   </head>
   <body>
     <nav class="navbar navbar-inverse">
@@ -73,21 +21,21 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"><img src="img/w3newbie.png">
+          <a class="navbar-brand" href="#"><img src="img/newLogo.png">
         </div>
         <div class="collapse navbar-collapse" id="#myNavbar">
           <ul class="nav navbar-nav navbar-right">
             <li class="active"><a href="#"><Home></a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Blog</a></li>
             <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Testimonials</a></li>
             <li><a href="#">Contact</a></li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="4000">
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -99,45 +47,48 @@
         <div class="fill">
           <img src="img/mountains.png">
           <div class="carousel-caption">
-            <h1>Get To Know Bootstrap</h1>
+            <h1>Who I am</h1>
             <br>
-            <button type="button" class="btn btn-default">Get Started</button>
+            <p>Hi, my name is Dan and I like to write code</p>
           </div> <!-- end of caption -->
         </div> <!--- End active -->
 
         <div class="item">
           <div class="fill">
             <img src="img/snow.png">
+            <div class="carousel-caption">
+              <h1>What I do</h1>
+              <br>
+              <p>I use HTML, CSS, Bootstrap and Javascript to make cool stuff</p>
+            </div> <!-- end of caption -->
           </div>
         </div>
         <div class="item">
           <div class="fill">
-          <img src="img/red.png">
+            <img src="img/red.png">
+            <div class="carousel-caption">
+              <h1>My Passion</h1>
+              <br>
+              <p>I enjoy making things people can use on the internet</p>
+            </div> <!-- end of caption -->
           </div>
         </div>
       </div>
       </div> <!-- end listbox  -->
-      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="Prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="Next">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-      </a>
     </div> <!-- end of myCarousel id -->
 
 
     <!-- <div class="fill"> -->
       <!-- start slider control
-      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="Prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
+      <a class="left carousel-control" href="#portfolio-carousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
       </a>
-      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="Next">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-      </a> -->
+      <a class="right carousel-control" href="#portfolio-carousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+       -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </body>
