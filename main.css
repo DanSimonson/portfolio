@@ -63,6 +63,12 @@ html,body{
   background-color: #9A2617;
   text-decoration: none;
 }
+footer {
+  width: 100%;
+  background-color: #9A2617;
+  padding: 3%;
+  color: #FFF;
+}
 @media (max-width: 600px) {
   .carousel-caption{
     display:none;
