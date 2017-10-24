@@ -39,7 +39,8 @@ html,body{
   text-transform: uppercase;
 }
 .carousel-caption p {
-  font-size: 2em
+  font-size: 2em;
+  font-weight:bold;
 }
 .btn {
   font-size: 18px;
@@ -48,7 +49,9 @@ html,body{
   background: #5e4485;
   border: 2px solid #FFF;
 }
-
+.container {
+  margin: 4% auto;
+}
 @media (max-width: 600px) {
   .carousel-caption{
     display:none;
