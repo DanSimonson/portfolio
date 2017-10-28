@@ -69,6 +69,38 @@ footer {
   padding: 3%;
   color: #FFF;
 }
+.bigIcon {
+  font-size: 10em;
+}
+.fa-envelope-o {
+  color: #fff;
+}
+#email p {
+  font-size: 150%;
+}
+#email p:hover {
+
+}
+.fa-github {
+  webkit-animation-duration: .3s;
+  /*webkit- animation-delay: 2s; */
+  /*webki-animation-iteration count: infinite;*/
+}
+.fa-linkedin {
+  webkit-animation-duration: .3s;
+  /*webkit- animation-delay: 2s; */
+  /*webki-animation-iteration count: infinite;*/
+}
+.fa-facebook {
+  webkit-animation-duration: .3s;
+  /*webkit- animation-delay: 2s; */
+  /*webki-animation-iteration count: infinite;*/
+}
+.fa-twitter {
+  webkit-animation-duration: .3s;
+  /*webkit- animation-delay: 2s; */
+  /*webki-animation-iteration count: infinite;*/
+}
 @media (max-width: 600px) {
   .carousel-caption{
     display:none;

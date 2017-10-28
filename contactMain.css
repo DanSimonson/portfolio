@@ -1,0 +1,52 @@
+body {
+  background-image: url("img/background.jpg");
+  background-size: cover;
+  /*background-color: #3964C3;/*
+  /*padding-top: 20px;*/
+  /*padding-bottom: 20px;*/
+}
+.container {
+  margin-top: 100px;
+}
+.navbar {
+  /* margin-bottom: 0;
+  border-radius: 0; */
+  background-color: #9A2617;
+  color: #ffff;
+  /*
+  padding: 1% 0;
+  font-size: 1.2em;
+  border: 0: */
+}
+
+.jumbotron {
+  color: #fff;
+  background-color: #FF3C33;
+  font-size: 200%;
+}
+.bold {
+  font-weight: bold;
+  color:#F8C471;
+}
+.boldItalic {
+  font-weight: bold;
+  font-style: italic;
+  color: #F5B041;
+}
+.boldItalicSM {
+  font-weight: bold;
+  font-style: italic;
+  color: #A9DFBF;
+}
+.jumbotron p {
+  font-size: 140%;
+}
+.bigIcon {
+  font-size: 7em;
+}
+.btn btn-danger {
+  margin-top: 0;
+}
+.hideShow li {
+  
+}
