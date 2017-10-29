@@ -5,6 +5,9 @@ body {
   /*padding-top: 20px;*/
   /*padding-bottom: 20px;*/
 }
+li a:hover {
+  color: #50c878;
+}
 .container {
   margin-top: 100px;
 }
@@ -48,5 +51,5 @@ body {
   margin-top: 0;
 }
 .hideShow li {
-  
+
 }
