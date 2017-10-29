@@ -7,5 +7,8 @@ $(".bigIcon").on('mouseover', function() {
 });
 //remove animation classes on mouseover to bigIcons
 $(".bigIcon").on('mouseout', function() {
-  $(".bigIcon").removeClass('animated');
+  $("a.fa-github.bigIcon").removeClass('animated swing infinite');
+  $("a.fa-linkedin.bigIcon").removeClass('animated wobble infinite');
+  $("a.fa-facebook.bigIcon").removeClass('animated bounce infinite');
+  $("a.fa-twitter.bigIcon").removeClass('animated jello infinite');
 });
