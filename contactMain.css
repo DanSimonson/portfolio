@@ -12,16 +12,33 @@ li a:hover {
   margin-top: 100px;
 }
 .navbar {
-  /* margin-bottom: 0;
-  border-radius: 0; */
+  margin-bottom: 0;
+  border-radius: 0;
   background-color: #9A2617;
-  color: #ffff;
-  /*
+  color: #fff;
   padding: 1% 0;
   font-size: 1.2em;
-  border: 0: */
+  border: 0:
 }
-
+.navbar-brand {
+  font-style: oblique;
+  font-weight:900;
+  font-family: cursive;
+  font-size: 1.3em;
+  padding: 10px 0 15px
+}
+.navbar-inverse .navbar-nav li a {
+  color: #D5D5D5;
+}
+.navbar-inverse .navbar-brand {
+    color: #D5D5D5;
+    background-color:  #9A2617;
+}
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+  background-color: transparent;
+  color: #D5D5D5
+}
 .jumbotron {
   color: #fff;
   background-color: #FF3C33;

@@ -5,7 +5,7 @@
     $("ul.hideShow > li").css('display', 'inline-block');
   });
 
-  //add animation classes on mouseover to bigIcons
+  //add bigIcons animation classes on mouseover
   $(".bigIcon").on('mouseover', function() {
       $("a.fa-github.bigIcon").addClass('animated swing infinite');
       $("a.fa-linkedin.bigIcon").addClass('animated wobble infinite');
@@ -13,7 +13,7 @@
       $("a.fa-twitter.bigIcon").addClass('animated jello infinite');
   });
 
-  //remove animation classes on mouseover to bigIcons
+  //remove bigIcons animation classes on mouseout
   $(".bigIcon").on('mouseout', function() {
     $("a.fa-github.bigIcon").removeClass('animated swing infinite');
     $("a.fa-linkedin.bigIcon").removeClass('animated wobble infinite');
