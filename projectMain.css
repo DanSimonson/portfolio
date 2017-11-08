@@ -1,6 +1,8 @@
 
 body {
   background-color: #FDF3E7; /*#ffa07a /*#ff4500; /*#21B6A8; #FDF3E7;*/
+  /*background-image: url("img/background.jpg");
+  background-size: cover;*/
 }
 h1, h2, h3, h4, p {
   font-family: 'Noto Sans', sans-serif;
