@@ -1,7 +1,7 @@
 
 body {
   background-color: #FDF3E7; /*#ffa07a /*#ff4500; /*#21B6A8; #FDF3E7;*/
-  /*background-image: url("img/background.jpg");
+  /*background-image: url("img/projectBackground.jpg");
   background-size: cover;*/
 }
 h1, h2, h3, h4, p {
@@ -57,34 +57,8 @@ a.card-link {
 .inline {
   display:inline;
 }
-#sectionOne {
-  animation-duration: 2s;
-  animation-delay: 1s;
-}
 #update {
   font-size: 1.2rem;
-  animation-duration: 2s;
+  animation-duration: 4s;
   animation-delay: 2s;
 }
-#dot {
-  font-size: 2rem;
-  animation-duration: 2s;
-  animation-delay: 3s;
-}
-#dotTwo {
-  font-size: 2rem;
-  animation-duration: 2s;
-  animation-delay: 4s;
-}
-#dotThree {
-  font-size: 2rem;
-  animation-duration: 2s;
-  animation-delay: 5s;
-}
-/*
-#sectionOne p {
-  font-size: 5rem;
-  padding: 0;
-  margin: 0;
-  border: 0;
-}*/

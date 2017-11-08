@@ -23,4 +23,27 @@ $(document).ready(function(){
   //Animate every 6 seconds
   setInterval(hourglassTip, 6000);
 
+  function dotting(){
+    let dot = document.getElementById('dot');
+    let dotTwo = document.getElementById('dotTwo');
+    let dotThree = document.getElementById('dotThree');
+    setTimeout( function(){
+      dot.innerHTML='&#xf152;';
+    }, 1000);
+    setTimeout( function(){
+      dotTwo.innerHTML='&#xf152;';
+    }, 2000);
+    setTimeout( function(){
+      dotThree.innerHTML='&#xf152;';
+    }, 3000);
+    setTimeout( function(){
+      dot.innerHTML='';
+      dotTwo.innerHTML='';
+      dotThree.innerHTML='';
+    }, 4000);
+  }
+  //call animation
+  dotting()
+  //Animate every 4 seconds
+  setInterval(dotting, 5000);
 });
