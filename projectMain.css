@@ -1,0 +1,88 @@
+
+body {
+  background-color: #FDF3E7; /*#ffa07a /*#ff4500; /*#21B6A8; #FDF3E7;*/
+}
+h1, h2, h3, h4, p {
+  font-family: 'Noto Sans', sans-serif;
+}
+/*
+.row div {padding: 20px 10px; border: 2px solid red}
+*/
+.card {
+  max-width: 400px;
+  border-radius: 0;
+  border: none;
+  padding: 5px;
+  text-align: center;
+}
+.btn-card {
+  width: 50px;
+  height: 50px;
+  border-radius:50px;
+  background-color: #50c878;
+  color: #fff;
+  border: 1px solid #red;
+}
+.navbar {
+  background-color: #9A2617;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.navbar-brand {
+  font-style: oblique;
+  font-weight:900;
+  font-family: cursive;
+}
+.navbar-brand:hover {
+  color: #fff;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #50c878;
+}
+.jumbotron {
+  margin-top: 3px;
+  margin-bottom: 1px;
+  background: linear-gradient(150deg, #02ccba 0%, #A951ED 100%);
+}
+a.card-link {
+  color: #50c878 ;
+  font-size: 110%
+}
+.card-body span {
+  color: #50c878;
+  font-size: 1.2rem;
+}
+.inline {
+  display:inline;
+}
+#sectionOne {
+  animation-duration: 2s;
+  animation-delay: 1s;
+}
+#update {
+  font-size: 1.2rem;
+  animation-duration: 2s;
+  animation-delay: 2s;
+}
+#dot {
+  font-size: 2rem;
+  animation-duration: 2s;
+  animation-delay: 3s;
+}
+#dotTwo {
+  font-size: 2rem;
+  animation-duration: 2s;
+  animation-delay: 4s;
+}
+#dotThree {
+  font-size: 2rem;
+  animation-duration: 2s;
+  animation-delay: 5s;
+}
+/*
+#sectionOne p {
+  font-size: 5rem;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}*/
