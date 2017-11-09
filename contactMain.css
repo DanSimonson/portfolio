@@ -5,8 +5,14 @@ body {
   /*padding-top: 20px;*/
   /*padding-bottom: 20px;*/
 }
+label {
+  color: #fff;
+}
 li a:hover {
   color: #50c878;
+}
+.row h1 {
+  color: #F5B041;
 }
 .container {
   margin-top: 100px;
