@@ -1,8 +1,8 @@
 
 body {
-  background-color: #FDF3E7; /*#ffa07a /*#ff4500; /*#21B6A8; #FDF3E7;*/
-  /*background-image: url("img/projectBackground.jpg");
-  background-size: cover;*/
+  /*background-color: #FDF3E7; #ffa07a /*#ff4500; /*#21B6A8; #FDF3E7;*/
+  background-image: url("img/projectBackground.jpg");
+  background-size: cover;
 }
 h1, h2, h3, h4, p {
   font-family: 'Noto Sans', sans-serif;
@@ -14,8 +14,10 @@ h1, h2, h3, h4, p {
   max-width: 400px;
   border-radius: 0;
   border: none;
-  padding: 5px;
+  /*padding: 5px;*/
   text-align: center;
+  margin-top: 10px;
+  background: linear-gradient(150deg, #F4F2F3 0%, #D3B88C 100%);
 }
 .btn-card {
   width: 50px;
@@ -42,9 +44,10 @@ h1, h2, h3, h4, p {
   color: #50c878;
 }
 .jumbotron {
-  margin-top: 3px;
+  margin-top: 5px;
   margin-bottom: 1px;
-  background: linear-gradient(150deg, #02ccba 0%, #A951ED 100%);
+  background: linear-gradient(150deg, #F4F2F3 0%, #D3B88C 100%);
+  /*background: linear-gradient(150deg, #02ccba 0%, #A951ED 100%);*/
 }
 a.card-link {
   color: #50c878 ;
