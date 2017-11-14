@@ -20,3 +20,14 @@
     $("a.fa-facebook.bigIcon").removeClass('animated bounce infinite');
     $("a.fa-twitter.bigIcon").removeClass('animated jello infinite');
   });
+
+  /* make navbar change on scroll */
+    $(window).scroll(function() {
+      var top = $(document).scrollTop();
+
+      if (top > 60) {
+        $('.navbar').css('background-color','#c85650');
+      } else {
+        $('.navbar').css('background-color', 'transparent');
+     }
+   });

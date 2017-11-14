@@ -46,4 +46,15 @@ $(document).ready(function(){
   dotting()
   //Animate every 4 seconds
   setInterval(dotting, 5000);
+
+  /* make navbar change on scroll */
+    $(window).scroll(function() {
+      var top = $(document).scrollTop();
+      if (top > 50) {
+        //alert('here');
+        $('.navbar').css('background-color','#eaddca');
+      } else {
+        $('.navbar').css('background', 'transparent');
+      }
+   });
 });

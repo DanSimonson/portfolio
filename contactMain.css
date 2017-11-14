@@ -5,6 +5,9 @@ body {
   /*padding-top: 20px;*/
   /*padding-bottom: 20px;*/
 }
+h1, h2, h3, h4, p, a{
+  font-family: 'Noto Sans', sans-serif;
+}
 label {
   color: #fff;
 }
@@ -23,13 +26,16 @@ li a:hover {
 .navbar {
   margin-bottom: 0;
   border-radius: 0;
-  background-color: #9A2617;
+  background-color: transparent;
+  /*background-color: #9A2617;*/
   color: #fff;
+  font-weight: bold;
   padding: 1% 0;
   font-size: 1.2em;
   border: 0:
 }
 .navbar-brand {
+  background-color:transparent;
   font-style: oblique;
   font-weight:900;
   font-family: cursive;
@@ -41,7 +47,7 @@ li a:hover {
 }
 .navbar-inverse .navbar-brand {
     color: #D5D5D5;
-    background-color:  #9A2617;
+    /*background-color:  #9A2617;*/
 }
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {

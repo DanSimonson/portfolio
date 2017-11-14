@@ -28,7 +28,8 @@ h1, h2, h3, h4, p {
   border: 1px solid #red;
 }
 .navbar {
-  background-color: #9A2617;
+  background-color: transparent;
+  /*background-color: #9A2617;*/
   padding-bottom: 0;
   margin-bottom: 0;
 }
@@ -37,11 +38,19 @@ h1, h2, h3, h4, p {
   font-weight:900;
   font-family: cursive;
 }
-.navbar-brand:hover {
-  color: #fff;
+.navbar-dark .navbar-brand {
+  color: black; /*#50c878;*/
+}
+.navbar-dark .navbar-brand:hover {
+  color: black;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: black;
+  font-weight: bold;
 }
 .navbar-dark .navbar-nav .nav-link:hover {
-  color: #50c878;
+  color: #50c878 ;
+  font-weight:900;
 }
 .jumbotron {
   margin-top: 5px;
