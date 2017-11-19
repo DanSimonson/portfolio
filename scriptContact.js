@@ -1,8 +1,9 @@
 
   //toggle the font awesome icons in a ul li
   $("#icon").click(function() {
-    $("ul.hideShow").toggle();
-    $("ul.hideShow > li").css('display', 'inline-block');
+    $("ul.hideShow").slideToggle(2000);
+    //$("ul.hideShow").toggle();
+     $("ul.hideShow > li").css('display', 'inline-block');
   });
 
   //add bigIcons animation classes on mouseover
