@@ -20,7 +20,7 @@ $(document).ready(function(){
 
   function changeText() {
     let text = document.getElementById('text');
-
+    
     setTimeout( function(){
       text.innerHTML = 'Every once in awhile, a new technology, an old problem, and a big idea turn into innovation.';
     }, 5000);
@@ -36,10 +36,16 @@ $(document).ready(function(){
     setTimeout( function(){
       text.innerHTML = "People are what they repeatedly do. Excellence, therefore, is not an act, but a habit.";
     }, 25000);
+    setTimeout( function(){
+      text.innerHTML = "A satisfied customer is the best business strategy of all.";
+    }, 30000);
+    setTimeout( function(){
+      text.innerHTML = "He who knows best knows how little he knows";
+    }, 35000);
   }
   //call animation
   changeText();
-  //Animate every 16 seconds
-  setInterval(changeText, 26000);
+  //Animate every ... seconds
+  setInterval(changeText, 36000);
 
 });
