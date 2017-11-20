@@ -1,7 +1,7 @@
 
 body {
   /*background-color: #FDF3E7; #ffa07a /*#ff4500; /*#21B6A8; #FDF3E7;*/
-  background-image: url("img/projectBackground.jpg");
+  background-image: url("img/sand.jpg");
   background-size: cover;
 }
 h1, h2, h3, h4, p {
@@ -51,6 +51,7 @@ h1, h2, h3, h4, p {
 .navbar-dark .navbar-nav .nav-link:hover {
   color: #50c878 ;
   font-weight:900;
+  transition: color 1s;
 }
 .jumbotron {
   margin-top: 5px;

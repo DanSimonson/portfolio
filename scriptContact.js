@@ -27,7 +27,7 @@
       var top = $(document).scrollTop();
 
       if (top > 60) {
-        $('.navbar').css('background-color','#376D5C');//hsl(162, 33%, 32%);#c85650
+        $('.navbar').css('background-color','#376D5C');
       } else {
         $('.navbar').css('background-color', 'transparent');
      }
