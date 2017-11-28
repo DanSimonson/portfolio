@@ -40,6 +40,7 @@ h1, h2, h3, h4, p {
 }
 .navbar-dark .navbar-brand {
   color: black; /*#50c878;*/
+  margin-bottom: 5px;
 }
 .navbar-brand img {
   height: 58px;
