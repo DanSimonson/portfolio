@@ -48,4 +48,11 @@ $(document).ready(function(){
   //Animate every ... seconds
   setInterval(changeText, 36000);
 
+  //$('ul.navbar-nav').hover(function(){
+    //$('li a:nth-child(1)') {
+      //alert('here');
+    //};
+    
+  //});
+
 });

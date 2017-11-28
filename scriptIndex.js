@@ -28,7 +28,7 @@ $(document).ready(function () {
       $('.navbar').css('background-color', 'green');
       $('.navbar').css('opacity', '1');
       $('.navbar-right li > a').css('color', '#D5D5D5');
-      $('.navbar-brand').css('color', '#D5D5D5');
+      //$('.navbar-brand').css('color', '#D5D5D5');
 
     } else {
       $('.navbar').css('background', 'rgba(255, 255, 255, 0.3');
