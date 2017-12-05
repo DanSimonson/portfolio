@@ -51,7 +51,7 @@ $(document).ready(function(){
     $(window).scroll(function() {
       var top = $(document).scrollTop();
       if (top > 50) {
-        //alert('here');
+        alert('here');
         $('.navbar').css('background-color','#eaddca');
       } else {
         $('.navbar').css('background', 'transparent');
