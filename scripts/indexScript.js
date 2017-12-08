@@ -23,4 +23,17 @@
   $('.flip-container').click(function() {
     $(this).toggleClass('flipped');
   });
+
+  window.sr = ScrollReveal();
+
+  sr.reveal('#skill-one', {
+    duration: 3000,
+    origin:'top',
+    distance:'300px'
+  });
+  sr.reveal('#skill-two', {
+    duration: 3000,
+    origin:'right',
+    distance:'300px'
+  });
 });
