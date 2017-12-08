@@ -57,7 +57,7 @@ h2 {
   .navbar-light .navbar-nav .nav-link {
     color: #fff;
   }
-  .navbar-light .navbar-nav .nav-link:hover {
+  .navbar-light .navbar-nav .nav-link:hover {  
       color: #fff;
   }
   .navbar-brand img {
@@ -112,7 +112,7 @@ h2 {
   }
  }
  .flip-container {
-  margin: 50px auto 160px auto;
+  margin: 30px auto 80px auto;
   width: 650px;
   height: 200px;
   transition: all 5s;
@@ -151,6 +151,10 @@ h2 {
 
 .flipped .front {
   transform: rotateX(180deg);
+}
+
+.flip-container {
+  
 }
 #email p {
   font-size: 145%;
