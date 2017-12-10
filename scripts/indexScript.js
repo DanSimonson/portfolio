@@ -33,7 +33,7 @@
   });
   sr.reveal('#skill-two', {
     duration: 3000,
-    origin:'right',
+    origin:'top',
     distance:'300px'
   });
 });
