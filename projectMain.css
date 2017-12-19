@@ -87,13 +87,17 @@ a.card-link {
 .inline {
   display:inline;
 }
+#sectionOne {
+  padding-top: 20px;
+  padding-bottom: 300px;
+  padding-left: 0;
+  padding-right: 200px;
+}
 #update {
+  color: green;
   font-size: 1.2rem;
   animation-duration: 10s;
   animation-delay: 2s;
 }
-#sectionOne {
-  margin-top: 200px;
-  margin-left: 10px;
-}
+
 

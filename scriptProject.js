@@ -47,7 +47,7 @@ $(document).ready(function(){
   //Animate every 4 seconds
   setInterval(dotting, 5000);
 
-  /* make navbar change on scroll */
+  /* make navbar change on scroll 
     $(window).scroll(function() {
       var top = $(document).scrollTop();
       if (top > 50) {
@@ -56,5 +56,5 @@ $(document).ready(function(){
       } else {
         $('.navbar').css('background', 'transparent');
       }
-   });
+   });*/
 });
