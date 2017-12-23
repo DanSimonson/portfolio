@@ -34,6 +34,7 @@
   sr.reveal('#skill-two', {
     duration: 3000,
     origin:'top',
-    distance:'300px'
+    distance:'300px',
+    viewFactor:0.2
   });
 });
