@@ -1,7 +1,7 @@
 
 body {
-  /*background-color: #FDF3E7; #ffa07a /*#ff4500; /*#21B6A8; #FDF3E7;*/
-  background-image: url("img/sand.jpg");
+  /*background-color: #FDF3E7; #ffa07a /*#ff4500; /*#21B6A8; #FDF3E7;
+  background-image: url("img/sand.jpg");*/
   background-size: cover;
 }
 h1, h2, h3, h4, p {
@@ -11,7 +11,7 @@ h1, h2, h3, h4, p {
 .row div {padding: 20px 10px; border: 2px solid red}
 */
 .card {
-  max-width: 400px;
+  /*max-width: 400px;*/
   border-radius: 0;
   border: none;
   /*padding: 5px;*/
@@ -28,10 +28,9 @@ h1, h2, h3, h4, p {
   border: 1px solid;
 }
 .navbar {
-  background-color: transparent;
-  /*background-color: #9A2617;*/
+  /*background-color: #eaddca;*/
   padding-bottom: 0;
-  margin-bottom: 0;
+  margin-bottom: 5px;
 }
 .navbar-brand {
   font-style: oblique;
@@ -71,7 +70,7 @@ h1, h2, h3, h4, p {
   transition: color 1s;
 }
 .jumbotron {
-  margin-top: 5px;
+  margin-top: 20px;
   margin-bottom: 1px;
   background: linear-gradient(150deg, #F4F2F3 0%, #D3B88C 100%);
   /*background: linear-gradient(150deg, #02ccba 0%, #A951ED 100%);*/
@@ -87,17 +86,33 @@ a.card-link {
 .inline {
   display:inline;
 }
-#sectionOne {
-  padding-top: 20px;
-  padding-bottom: 300px;
-  padding-left: 0;
-  padding-right: 200px;
-}
 #update {
-  color: green;
+  padding-top: 0;
+  padding-right: 0;
+  padding-left: 0;
+  padding-bottom: 0;
+  margin: 0 0;
+  font-weight: 900;  
+  color: #2D4739;
   font-size: 1.2rem;
   animation-duration: 10s;
   animation-delay: 2s;
+}
+#hourGlassTip {
+  padding-top: 0;
+  padding-right: 0;
+  padding-left: 0;
+  padding-bottom: 0;
+  margin: 0 0;
+  font-size:30px;
+  color:#2D4739;
+}
+#sectionOne {
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right:0;
+  margin: 0 0;
 }
 
 
