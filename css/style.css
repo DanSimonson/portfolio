@@ -86,6 +86,9 @@ input#menu{
   text-decoration: none;
   padding: 10px;
   color: #d3d3d3;
+  background: linear-gradient(to bottom right,#ffd89b, #19547b);   
+  border-radius: 25px;
+  margin-top: 2px;
   font-weight: 900;
 }
 a:hover {
