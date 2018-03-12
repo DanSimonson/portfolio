@@ -38,10 +38,9 @@ $( document ).ready(function() {
     if($("label").find($(".fa")).hasClass('fa fa-bars')){
       //console.log('found icon');
       $("label").find($(".fa")).removeClass('fa fa-bars').addClass('fa fa-times-circle-o');
-    } else {
+    } else if($("label").find($(".fa")).hasClass('fa fa-times-circle-o')){
       $("label").find($(".fa")).removeClass('fa fa-times-circle-o').addClass('fa fa-bars');
     }
-
   });
  
  function changeText() {
