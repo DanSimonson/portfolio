@@ -1,6 +1,6 @@
 
 $( document ).ready(function() {
-  const curren= document.querySelector('#current');
+  const current= document.querySelector('#current');
   const imgs = document.querySelectorAll('.imgs img')
   const opacity = 0.6;
 
